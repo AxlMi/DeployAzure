@@ -40,3 +40,6 @@ Add-WindowsFeature RSAT-ADDS
 
 # Add RSAT-DNS-Server feature
 Add-WindowsFeature RSAT-DNS-Server
+
+# Add WSUS feature and its console
+Add-WindowsFeature UpdateServices, UpdateServices-Ui
